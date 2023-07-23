@@ -25,6 +25,6 @@ in the local terminal:
 
 sftp username@hostname  """here username, hostname and then enter the password of the sandbox"""
 
-put PATH/TO/THE/SCREENSHOTS.jpeg /root/alx-system_engineering-devops/command_line_for_the_win
+put PATH/TO/THE/SCREENSHOTS.png /root/alx-system_engineering-devops/command_line_for_the_win
 
 Then exit to quit the SFTP command-line tool
