@@ -17,4 +17,14 @@ Push this screenshot with the right name to GitHub, in either the PNG or JPEG fo
 Specific
 In addition to completing the project tasks and submitting the required screenshots to GitHub, you are also required to demonstrate the use of the SFTP (Secure File Transfer Protocol) command-line tool to move your local screenshots to the sandbox environment.
 
+--------------------------------------------
 
+for satisfying the "sprecific" requirements here the steps i followed to use the SFTP command-line tool:
+
+in the local terminal:
+
+sftp username@hostname  """here username, hostname and then enter the password of the sandbox"""
+
+put PATH/TO/THE/SCREENSHOTS.jpeg /root/alx-system_engineering-devops/command_line_for_the_win
+
+Then exit to quit the SFTP command-line tool
