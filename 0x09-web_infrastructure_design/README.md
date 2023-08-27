@@ -67,10 +67,5 @@ Design an enhanced web infrastructure with security and monitoring measures. The
 
 Explain the need for firewalls, SSL certificates, and monitoring. Describe the data collection process by monitoring tools. Address issues like SSL termination at the load balancer, limited write-capable MySQL servers, and uniform server components.
 
-## Note
-Remember to provide detailed explanations for each component's role and significance, as well as the issues and solutions associated with each infrastructure design. The diagrams, explanations, and URLs should be provided as specified in the task descriptions.
-
-This project will not only test your ability to design web infrastructures but also enhance your skills in explaining complex technical concepts.
-
 ## Copyright
 This project is protected by the ALX license. All rights reserved.
