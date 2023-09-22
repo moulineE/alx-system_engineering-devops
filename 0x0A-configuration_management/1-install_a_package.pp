@@ -9,4 +9,3 @@ package { 'flask':
     require  => Exec['apt-get update']
     provider => 'pip3'
 }
-
