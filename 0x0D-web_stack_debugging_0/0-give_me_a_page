@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# start the apache2 web server to fix holbertonschool/265-0
+
+sudo service apache2 restart
