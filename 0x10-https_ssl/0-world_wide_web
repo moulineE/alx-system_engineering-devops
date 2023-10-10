@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# a Bash script that will display information about subdomains.
+dig_diplay () {
+	ANSW_rep=$(dig "$2"."$1" | grep -A1 'ANSWER SECTION:' | tr '\t' ' ' | cut -d ' ' -f4-5 | tail -1)
+	echo "$2 $ANSW_rep" | awk '{print "The subdomain "$1" is a "$2" record and points to "$3}'
+}
+if [ -z "$2" ]; then
+	dig_diplay "$1" "www"
+	dig_diplay "$1" "lb-01"
+	dig_diplay "$1" "web-01"
+	dig_diplay "$1" "web-02"
+else
+	dig_diplay "$1" "$2"
+fi
