@@ -2,7 +2,7 @@
 # a Bash script that configures the container
 pkill apache2
 sudo service nginx stop
+sudo chown -R nginx:nginx /etc/nginx
 sudo sed -i 's/80/8080/g' /etc/nginx/sites-available/default
 sudo sed -i '/# user www-data;/a \user nginx;' /etc/nginx/nginx.conf
-sudo chown -R nginx:nginx /etc/nginx
 sudo -u nginx service nginx start
