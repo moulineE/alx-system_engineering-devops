@@ -1,4 +1,5 @@
 # Postmortem: Apache 500 Error Outage
+![500 Error](https://github.com/moulineE/alx-system_engineering-devops/blob/main/0x19-postmortem/meme.jpeg)
 
 ## Issue Summary
 
